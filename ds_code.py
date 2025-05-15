@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib as mpl
 import json
 
 f = open('ds.json','r')
@@ -33,10 +32,10 @@ def get_comment(D):
 
 # number of sets known for these parameters
 def num_sets(D):
-    if "sets" not in diffsets[D]:
+    if 'sets' not in D:
         return 0
 
-    return len(diffsets[D]["sets"])
+    return len(D['sets'])
 
 # pull parameters out from name D
 def get_v(D):
@@ -102,12 +101,6 @@ def get_ds(v,k,lam,G,i):
         G = D['G_rep']
 
     return [v,k,lam,G,D['sets'][i]]
-
-# get number of DS(v,k,lam) sets, if any
-def num_sets(ds):
-    if 'sets' not in ds:
-        return 0
-    return len(ds['sets'])
 
 # print out information about a given DS
 def get_ds_data(v,k,lam,G):
