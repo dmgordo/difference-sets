@@ -1,5 +1,5 @@
 A $(v,k,&lambda;)$-difference set in a group $G$ is a subset 
-$D =  \{d_1, d_2,..., d_k\}$ of $G$ such that each nonzero element 
+$D =$ { $d_1, d_2,..., d_k$ } of $G$ such that each nonzero element 
 of $G$ can each be represented as a difference $(d_i - d_j)$ in exactly
 &lambda; different ways. 
 
