@@ -1,18 +1,15 @@
----
-layout: single
-title: "The La Jolla Difference Set Repository"
-mathjax: true
----
-
-A $(v,k,\lambda)$-difference set in a group $G$ is a subset $D = $ {$d_1, d_2, ..., d_k$} of $G$ such that each nonzero element of $G$ can each be represented as a difference $(d_i - d_j)$ in exactly $\lambda$ different ways.
+A *(v,k,&lambda;)*-difference set in a group *G* is a subset 
+*D =  {d_1, d_2,..., d_k}* of *G* such that each nonzero element 
+of *G* can each be represented as a difference *(d_i - d_j)* in exactly
+&\lambda; different ways. 
 
 This database gives information about possible parameters for
-difference sets in abelian groups $G$. All parameters with
-$v&lt;100000$ passing basic tests (counting, Schutzenberger,
+difference sets in abelian groups *G*. All parameters with
+*v&lt;100000* passing basic tests (counting, Schutzenberger,
 Bruck-Ryser-Chowla) are
 listed here, and an attempt has been made to include all known
-difference sets. Most known for large $v$ are Paley, which are easily
-constructed, so those are omitted for $v&gt;1000$.
+difference sets. Most known for large *v* are Paley, which are easily
+constructed, so those are omitted for *v&gt;1000*.
 
 
 See [the La Jolla Combinatorics Repository](https://dmgordo.github.io) for more
